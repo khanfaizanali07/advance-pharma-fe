@@ -22,3 +22,19 @@ body {
  body{
   background-color: #f5f5f5;
  }
+
+ /* .rotate1:hover {
+  -webkit-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+  transition: transform 0.6s ease-in-out;
+} */
+
+.rotate-on-hover {
+  /* transition: transform 0.8s ease-in-out; */
+  -webkit-transform: rotate3d(0, 1, 0, 360deg);
+  transform: rotate3d(0, 1, 0, 360deg);
+}
+
+/* .rotate-on-hover:hover {
+   
+} */
