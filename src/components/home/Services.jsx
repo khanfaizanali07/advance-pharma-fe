@@ -9,45 +9,45 @@ import { Typography } from '@material-tailwind/react';
 const services = [
     {
         icon: <GiMedicines />,
-        heading: "Medicine",
+        heading: "Lorem",
         para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis odit, unde fugiat autem earum luptatem sequuntur."
     },
     {
         icon: <GiBrain />,
-        heading: "Neurology",
+        heading: "Lorem",
         para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis odit, unde fugiat autem earum luptatem sequuntur."
     },
     {
         icon: <IoEyeOutline />,
-        heading: "Eye Care",
+        heading: "Lorem",
         para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis odit, unde fugiat autem earum luptatem sequuntur."
     },
     {
         icon: <GiHeartOrgan />,
-        heading: "Cardiology",
+        heading: "Lorem",
         para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis odit, unde fugiat autem earum luptatem sequuntur."
     },
     {
         icon: <LiaToothSolid />,
-        heading: "Dental Care",
+        heading: "Lorem",
         para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis odit, unde fugiat autem earum luptatem sequuntur."
     },
     {
         icon: <BsLungs />,
-        heading: "Pulmonary",
+        heading: "Lorem",
         para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis odit, unde fugiat autem earum luptatem sequuntur."
     },
 ]
 const Services = () => {
     const [hoverIndex, setHoverIndex] = useState(-1);
   return (
-    <div className="container mx-auto w-full mt-20">
+    <div className="container mx-auto w-full mt-20 px-4">
       <Typography className="text-sm font-semibold text-[#02a458] text-center">Our Services</Typography>
       <Typography variant='h2' className="mt-4 text-center text-[#121521]">Our Healthcare <span className="text-[#02a458]">Services</span></Typography>
       <div className="md:w-1/2 w-full mt-4 mx-auto">
         <Typography variant='paragraph' className="w-full text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore perferendis deleniti illum necessitati voluptates ipsum, ratione dolorum veritatis minus mollitia placeat</Typography>
       </div>
-      <div className="grid grid-cols-3 mt-8 gap-6">
+      <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 mt-8 gap-6">
         {
             services.map((ser, i) => 
                 <div key={i+"ser"} className="bg-white z-20 p-8 relative w-full after:w-full after:absolute after:bottom-0 after:left-0 after:h-[2px] hover:after:h-full after:bg-[#02a458] flex flex-col justify-center items-center after:duration-500 after:rounded-lg after:z-0 rounded-lg" onMouseEnter={() => setHoverIndex(i)} onMouseLeave={() => setHoverIndex(-1)}>

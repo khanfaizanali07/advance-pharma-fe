@@ -34,9 +34,9 @@ const Footer = () => {
         setYear(date.getFullYear())
     }, [])
   return (
-    <div className="w-full bg-[#122738] mt-10">
+    <div className="w-full bg-[#122738]">
             <div className="container mx-auto px-4">
-                <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 py-10 ml-4">
+                <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 py-10">
                     <div className="">
                         <Typography className="text-[#02a458] text-xl">About us</Typography>
                         <Typography className="text-sm text-justify mt-4 text-white pr-16">our facility located in Saudi Arabia, our vision is to manufacture and produce distinct pharmaceutical products in various forms that are not available in the MENA region, accommodating the requirements of medical institutions and end users alike.</Typography>

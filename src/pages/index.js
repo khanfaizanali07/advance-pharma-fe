@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <div>
         <Slider/>
-        <Focus/>
         <AboutHome/>
         <Services/>
+        <Focus/>
     </div>
   );
 }

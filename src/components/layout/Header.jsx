@@ -22,12 +22,20 @@ const Header = () => {
     <ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <Typography
         as="li"
-        variant="paragraph"
         color="blue-gray"
         className="p-1 text-[#121521] hover:text-[#43ad65] duration-500"
       >
-        <a href="#" className="flex items-center gap-[2px]">
-          Home<GoPlus />
+        <a href="#" className="flex items-center gap-[2px] relative before:absolute before:bottom-2 before:-left-1 hover:before:border hover:before:border-[#43ad65] before:h-0 hover:before:h-1/2 before:duration-500 after:absolute after:top-2 after:-left-1 hover:after:border hover:after:border-[#43ad65] after:h-0 hover:after:h-1/2 after:duration-500 text-sm font-semibold">
+          Home<GoPlus className="text-sm"/>
+        </a>
+      </Typography>
+      <Typography
+        as="li"
+        color="blue-gray"
+        className="p-1 text-[#121521] hover:text-[#43ad65] duration-500"
+      >
+        <a href="#" className="flex items-center gap-[2px] relative before:absolute before:bottom-2 before:-left-1 hover:before:border hover:before:border-[#43ad65] before:h-0 hover:before:h-1/2 before:duration-500 after:absolute after:top-2 after:-left-1 hover:after:border hover:after:border-[#43ad65] after:h-0 hover:after:h-1/2 after:duration-500 text-sm font-semibold">
+            About us<GoPlus className="text-sm"/>
         </a>
       </Typography>
       <Typography
@@ -36,35 +44,25 @@ const Header = () => {
         color="blue-gray"
         className="p-1 text-[#121521] hover:text-[#43ad65] duration-500"
       >
-        <a href="#" className="flex items-center gap-[2px]">
-            About us<GoPlus />
+        <a href="#" className="flex items-center gap-[2px] relative before:absolute before:bottom-2 before:-left-1 hover:before:border hover:before:border-[#43ad65] before:h-0 hover:before:h-1/2 before:duration-500 after:absolute after:top-2 after:-left-1 hover:after:border hover:after:border-[#43ad65] after:h-0 hover:after:h-1/2 after:duration-500 text-sm font-semibold">
+        Pharmacovigilance<GoPlus className="text-sm"/>
         </a>
       </Typography>
       <Typography
         as="li"
         variant="paragraph"
         color="blue-gray"
-        className="p-1 text-[#121521] hover:text-[#43ad65] duration-500"
+        className="p-1"
       >
-        <a href="#" className="flex items-center gap-[2px]">
-        Pharmacovigilance<GoPlus />
-        </a>
-      </Typography>
-      <Typography
-        as="li"
-        variant="paragraph"
-        color="blue-gray"
-        className="p-1 text-[#121521] hover:text-[#43ad65] duration-500"
-      >
-        <a href="#" className="flex items-center gap-[2px]">
-        Contact Us<GoPlus />
+        <a href="#" className="flex items-center gap-[2px] relative text-[#121521] hover:text-[#43ad65] duration-500 before:absolute before:bottom-2 before:-left-1 hover:before:border hover:before:border-[#43ad65] before:h-0 hover:before:h-1/2 before:duration-500 after:absolute after:top-2 after:-left-1 hover:after:border hover:after:border-[#43ad65] after:h-0 hover:after:h-1/2 after:duration-500 text-sm font-semibold">
+        Contact Us<GoPlus className="text-sm"/>
         </a>
       </Typography>
     </ul>
   );
   return (
     <div className="max-h-[768px] w-full sticky top-0 z-50">
-      <Navbar className=" z-50 h-max max-w-full rounded-none px-4 py-2 lg:py-4">
+      <Navbar className=" z-50 h-max max-w-full rounded-none px-6 py-2 lg:py-4">
         <div className="flex items-center justify-between text-blue-gray-900">
         <Link href="/">
           <img src="/logo.jpg" alt="logo"/>
