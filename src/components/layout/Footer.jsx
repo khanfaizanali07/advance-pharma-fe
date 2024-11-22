@@ -62,7 +62,7 @@ const Footer = () => {
                     <div className="mt-4 flex sm:justify-center justify-items-start items-center w-full  md:pr-16">
                     <ol className="text-white w-full md:px-14">
                         {footerLinks?.map((link) => 
-                            <li key={link?.link} className="p-1 cursor-pointer text-white hover:text-black hover:bg-[#02a458]  duration-500 text-sm border-b border-white w-full">{link?.name}</li>
+                            <li key={link?.link} className="p-1 cursor-pointer text-white hover:text-[#02a458] text-sm w-full">{link?.name}</li>
                         )}
                     </ol>
                     </div>
