@@ -9,7 +9,7 @@ import { PiFirstAidKit } from "react-icons/pi";
 const about = ["100% Customer Satisfaction", "100% Quality Assurance", "Secured Packaging", "Timely Delivery"]
 const cardsAbout = [
     {
-        heading : "Skilled Doctors",
+        heading : "Skilled Employees",
         para : "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
         icon : <IoMdPerson />
     },

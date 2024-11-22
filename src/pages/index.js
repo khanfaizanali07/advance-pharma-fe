@@ -1,12 +1,13 @@
-import { Button, } from "@material-tailwind/react";
 import Slider from "@/components/home/Slider";
 import AboutHome from "@/components/home/AboutHome";
 import Services from "@/components/home/Services";
+import Focus from "@/components/home/Focus";
 
 export default function Home() {
   return (
     <div>
         <Slider/>
+        <Focus/>
         <AboutHome/>
         <Services/>
     </div>
