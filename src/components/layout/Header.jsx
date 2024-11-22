@@ -62,15 +62,15 @@ const Header = () => {
   );
   return (
     <div className="max-h-[768px] w-full sticky top-0 z-50">
-      <Navbar className=" z-50 h-max max-w-full rounded-none px-6 py-2 lg:py-4">
-        <div className="flex items-center justify-between text-blue-gray-900">
+      <Navbar className=" z-50 h-max max-w-full rounded-none sm:px-6 px-4 py-2 lg:py-4">
+        <div className="flex items-center justify-between gap-4 text-blue-gray-900">
         <Link href="/">
-          <img src="/logo.jpg" alt="logo"/>
+          <img src="/logo.jpg" alt="logo" />
         </Link>
             <div className="mr-4 hidden lg:block">{navList}</div>
             <div className="flex items-center gap-x-1">
               <Button
-                className="hidden lg:inline-block relative text-white z-0 bg-[#02a458] w-[200px] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-full after:duration-500 after:z-0 after:rounded-lg after:bg-[#122738] hover:after:w-full"
+                className="hidden lg:inline-block relative text-white z-0 bg-[#02a458] xl:w-[200px] w-[100px] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-full after:duration-500 after:z-0 after:rounded-lg after:bg-[#122738] hover:after:w-full"
               >
                 <span className='!z-10 relative'>Arabic</span> 
               </Button>

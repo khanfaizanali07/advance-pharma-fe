@@ -36,7 +36,7 @@ const Slider = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5 }}
         >
-                <Card className="absolute bottom-40 max-w-lg right-6 bg-[#02a458]/50 backdrop-blur-sm p-4">
+                <Card className="absolute bottom-40 max-w-lg ml-6 sm:ml-0 right-6 bg-[#02a458]/50 backdrop-blur-sm p-4">
                 <Typography
                   variant="h1"
                   className={`text-3xl md:text-4xl  text-white`}
@@ -58,7 +58,7 @@ const Slider = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <Card className="absolute bottom-40 max-w-lg right-6 bg-[#02a458]/50 backdrop-blur-sm p-4">
+          <Card className="absolute bottom-40 max-w-lg ml-6 sm:ml-0 right-6 bg-[#02a458]/50 backdrop-blur-sm p-4">
                 <Typography
                   variant="h1"
                   className={`text-3xl md:text-4xl  text-white`}
